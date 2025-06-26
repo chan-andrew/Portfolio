@@ -13,9 +13,13 @@ export default function WorkPage() {
           <span className="text-gray-400">.</span>
         </h1>
 
-        <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-400 leading-relaxed">
-          He builds at the intersection of <span className="text-white">engineering</span> and{" "}
+        <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-400 leading-relaxed mb-4">
+          I build at the intersection of <span className="text-white">engineering</span> and{" "}
           <span className="text-white">medicine</span> 💊.
+        </p>
+
+        <p className="text-lg sm:text-xl font-light text-gray-400 leading-relaxed my-0 mb-4 py-4 lg:text-xl">
+          Check out some of my work below!
         </p>
       </div>
 
