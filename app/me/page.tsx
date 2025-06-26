@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function MePage() {
   return (
-    <div className="py-6 sm:py-8 lg:py-12">
+    <div className="py-12 sm:py-16 lg:py-24">
       <div className="max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           <div className="text-xl sm:text-2xl lg:text-3xl font-light leading-relaxed space-y-6">
@@ -30,16 +30,9 @@ export default function MePage() {
             </p>
           </div>
 
-          {/* Andrew’s photo */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-md aspect-[3/4] relative overflow-hidden">
+          <div className="flex justify-center lg:justify-start px-[0] px-[] px-[44] px-[44p] px-0 px-0 px-0 px-px px-0 px-11 px-[33px] px-4 px-1 flex-row px-0]assName="w-full max-w-md aspect-[3/4] relative overflow-hidden rounded-nonemr-0 mr-[px] mr-0 mr-0.5 mr-1 mr-0 mr-0 mr-0 mr-px mr-0.5 mr-0 mr-2 mr-[13px] mr-11 mr-[85px] mr-[84px] mr-16 mr-[43px] mr-[25px] mr-[9px]">
               <Image
-                src="/images/andrew-chan-photo.jpg"
-                alt="Andrew Chan"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
+       w-full max-w-md aspect-[3/4] relative overflow-hidden rounded-nonemr-0 mr-[px] mr-0 mr-0.5 mr-1 mr-0 mr-0 mr-0 mr-px mr-0.5 mr-0 mr-2 mr-[13px] mr-11 mr-[85px] mr-[84px] mr-16 mr-[43px] mr-[25px] mr-0             />
             </div>
           </div>
         </div>

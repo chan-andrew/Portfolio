@@ -10,7 +10,7 @@ export default function Header() {
     <header className="w-full py-6 sm:py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <Link href="/" className="font-light text-white hover:text-gray-300 transition-colors text-xl">
+          <Link href="/" className="text-xl sm:text-2xl font-light text-white hover:text-gray-300 transition-colors">
             Andrew Chan
           </Link>
 
@@ -39,14 +39,14 @@ export default function Header() {
             >
               Me
             </Link>
-            <a
-              href="/resume.pdf"
+            <Link
+              href="/resume"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base sm:text-lg font-light transition-colors hover:text-gray-300 text-gray-400"
             >
               Resume
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
