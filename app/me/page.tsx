@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function MePage() {
   return (
     <div className="py-12 sm:py-16 lg:py-24">
@@ -29,8 +31,14 @@ export default function MePage() {
           </div>
 
           <div className="flex justify-center lg:justify-start">
-            <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
-              <span className="text-gray-500 text-lg">Image placeholder</span>
+            <div className="w-full max-w-md aspect-[3/4] relative overflow-hidden rounded-lg">
+              <Image
+                src="/images/andrew-chan-photo.jpg"
+                alt="Andrew Chan"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </div>
           </div>
         </div>

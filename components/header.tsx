@@ -10,14 +10,14 @@ export default function Header() {
     <header className="w-full py-6 sm:py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <Link href="/" className="text-xl sm:text-2xl font-medium text-white hover:text-gray-300 transition-colors">
+          <Link href="/" className="text-xl sm:text-2xl font-light text-white hover:text-gray-300 transition-colors">
             Andrew Chan
           </Link>
 
           <nav className="flex flex-wrap gap-6 sm:gap-8">
             <Link
               href="/"
-              className={`text-base sm:text-lg font-medium transition-colors hover:text-gray-300 ${
+              className={`text-base sm:text-lg font-light transition-colors hover:text-gray-300 ${
                 pathname === "/" ? "text-white" : "text-gray-400"
               }`}
             >
@@ -25,7 +25,7 @@ export default function Header() {
             </Link>
             <Link
               href="/fun"
-              className={`text-base sm:text-lg font-medium transition-colors hover:text-gray-300 ${
+              className={`text-base sm:text-lg font-light transition-colors hover:text-gray-300 ${
                 pathname === "/fun" ? "text-white" : "text-gray-400"
               }`}
             >
@@ -33,20 +33,20 @@ export default function Header() {
             </Link>
             <Link
               href="/me"
-              className={`text-base sm:text-lg font-medium transition-colors hover:text-gray-300 ${
+              className={`text-base sm:text-lg font-light transition-colors hover:text-gray-300 ${
                 pathname === "/me" ? "text-white" : "text-gray-400"
               }`}
             >
               Me
             </Link>
-            <a
-              href="/resume.pdf"
+            <Link
+              href="/resume"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-base sm:text-lg font-medium transition-colors hover:text-gray-300 text-gray-400"
+              className="text-base sm:text-lg font-light transition-colors hover:text-gray-300 text-gray-400"
             >
               Resume
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
