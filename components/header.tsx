@@ -39,14 +39,14 @@ export default function Header() {
             >
               Me
             </Link>
-            <Link
-              href="/resume"
+            <a
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base sm:text-lg font-light transition-colors hover:text-gray-300 text-gray-400"
             >
               Resume
-            </Link>
+            </a>
           </nav>
         </div>
       </div>

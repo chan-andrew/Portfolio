@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function MePage() {
   return (
-    <div className="py-12 sm:py-16 lg:py-24">
+    <div className="py-6 sm:py-8 lg:py-12">
       <div className="max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           <div className="text-xl sm:text-2xl lg:text-3xl font-light leading-relaxed space-y-6">
