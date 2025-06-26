@@ -38,6 +38,22 @@ export default function ParkinsonsResearchPage() {
                 <li>• Collaborated with interdisciplinary research team</li>
               </ul>
             </div>
+
+            <div>
+              <h3 className="text-xl font-light text-white mb-4">Research Impact</h3>
+              <p className="text-lg text-gray-300 leading-relaxed mb-6">
+                This research contributes to the advancement of personalized medicine in Parkinson's disease treatment.
+                By identifying gamma oscillations as potential biomarkers, this work could enable more precise and
+                adaptive deep brain stimulation protocols, potentially improving patient outcomes while reducing side
+                effects.
+              </p>
+
+              <p className="text-lg text-gray-300 leading-relaxed">
+                The findings have implications for developing closed-loop DBS systems that can automatically adjust
+                stimulation parameters based on real-time neural feedback, representing a significant step toward truly
+                personalized neuromodulation therapy for movement disorders.
+              </p>
+            </div>
           </div>
         </div>
       </div>
