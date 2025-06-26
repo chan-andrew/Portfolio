@@ -30,8 +30,9 @@ export default function MePage() {
             </p>
           </div>
 
-          <div className="flex justify-center lg:justify-start">
-            <div className="w-full max-w-md aspect-[3/4] relative overflow-hidden rounded-lg">
+          {/* Andrew’s photo */}
+          <div className="flex justify-center lg:justify-end">
+            <div className="w-full max-w-md aspect-[3/4] relative overflow-hidden">
               <Image
                 src="/images/andrew-chan-photo.jpg"
                 alt="Andrew Chan"
