@@ -270,10 +270,7 @@ export default function FunPage() {
 
         {/* Caption */}
         <div className="mt-8 sm:mt-12 text-center">
-          <p className="text-lg sm:text-xl font-light text-gray-400 leading-relaxed">
-            Adventures in <span className="text-white">engineering</span>, <span className="text-white">travel</span>,
-            <span className="text-white"> automotive</span>, and <span className="text-white">exploration</span>
-          </p>
+          <p className="text-lg sm:text-xl font-light text-gray-400 leading-relaxed">More to come :)</p>
         </div>
       </div>
     </div>
