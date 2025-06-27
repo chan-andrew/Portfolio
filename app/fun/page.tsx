@@ -13,265 +13,266 @@ export default function FunPage() {
           </h1>
         </div>
 
-        {/* Expanded Photo Collage Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 lg:gap-6">
-          {/* Row 1: Hero airplane view spanning 3 columns */}
-          <div className="sm:col-span-2 lg:col-span-3 lg:row-span-2">
-            <div className="relative aspect-[4/3] lg:aspect-[3/2] overflow-hidden rounded-lg">
+        {/* Expanded Masonry-style Photo Collage */}
+        <div className="masonry-grid">
+          {/* Airplane view - Hero image spanning 2 columns */}
+          <div className="masonry-item masonry-wide masonry-tall">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/airplane-view.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20230712_012232914_iOS.jpg-PZjQxWf4OF2pdvgF7MuSBkMbWgp5DN.jpeg"
                 alt="View from airplane window showing clouds and sky"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
                 priority
               />
             </div>
           </div>
 
-          {/* McLaren - feature car */}
-          <div className="lg:col-span-2">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          {/* Cathedral of Learning - Portrait */}
+          <div className="masonry-item masonry-tall">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/mclaren-turquoise.jpg"
-                alt="Stunning turquoise McLaren supercar"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                loading="lazy"
-              />
-            </div>
-          </div>
-
-          {/* Coastal bench portrait */}
-          <div>
-            <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
-              <Image
-                src="/images/fun/coastal-bench.jpg"
-                alt="Person relaxing on bench overlooking coastal scenery"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
-                loading="lazy"
-              />
-            </div>
-          </div>
-
-          {/* Cathedral of Learning */}
-          <div>
-            <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
-              <Image
-                src="/images/fun/cathedral-learning.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240218_222959739_iOS.jpg-KSVqqnKV2NnT5Y9kMVPNd2vQYlTym5.jpeg"
                 alt="Cathedral of Learning at University of Pittsburgh"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Row 2: Beach paradise spanning 2 columns */}
-          <div className="sm:col-span-2 lg:col-span-2">
-            <div className="relative aspect-[5/3] overflow-hidden rounded-lg">
+          {/* McLaren turquoise - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/beach-paradise.jpg"
-                alt="Beautiful coastal beach with turquoise water"
+                src="/images/fun/mclaren-turquoise-new.jpg"
+                alt="Stunning turquoise McLaren sports car"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 33vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* F1 Racing */}
-          <div className="lg:col-span-2">
-            <div className="relative aspect-[5/3] overflow-hidden rounded-lg">
+          {/* Beach paradise - Wide */}
+          <div className="masonry-item masonry-wide">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/f1-racing.jpg"
-                alt="Formula 1 Red Bull Racing car on track"
+                src="/images/fun/beach-paradise-new.jpg"
+                alt="Beautiful coastal scene with turquoise water and rocky coastline"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 66vw, 40vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Row 3: Robotics project spanning 2 columns */}
-          <div className="sm:col-span-2 lg:col-span-2">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          {/* Desert rocks 1 - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/robotics-project.jpg"
-                alt="Complex robotics competition robot"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240613_155115118_iOS.jpg-e7Sn0Bu6Dp70OGGrYm1rbxPJ0W3LB4.jpeg"
+                alt="Beautiful desert rock formations with red and white layers"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 33vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Desert rocks 1 */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* Coastal bench - Portrait */}
+          <div className="masonry-item masonry-tall">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/desert-rocks-1.jpg"
-                alt="Beautiful desert rock formations"
+                src="/images/fun/coastal-bench-new.jpg"
+                alt="Person sitting on wooden bench overlooking coastal landscape"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Photography moment */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* Robotics project - Wide */}
+          <div className="masonry-item masonry-wide">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/photography-moment.jpg"
-                alt="Taking photos at coastal viewpoint"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20230301_224457506_iOS.jpg-PAu6MliXabfQxtLcogBIAkIryFFukh.jpeg"
+                alt="Complex VEX robotics competition robot"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 66vw, 40vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Ferrari detail */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* Ferrari detail - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/ferrari-detail.jpg"
-                alt="Ferrari prancing horse logo detail"
+                src="/images/fun/ferrari-detail-new.jpg"
+                alt="Close-up of blue Ferrari with prancing horse logo"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Porsche race car */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* Board game - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/porsche-race-car.jpg"
-                alt="Gulf-livery Porsche race car detail"
+                src="/images/fun/board-game-new.jpg"
+                alt="Rummikub board game tiles on wooden table with dramatic lighting"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Row 4: Boston street spanning 2 columns */}
-          <div className="sm:col-span-2 lg:col-span-2">
-            <div className="relative aspect-[5/3] overflow-hidden rounded-lg">
+          {/* Desert rocks 2 - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/boston-street.jpg"
-                alt="Classic Boston red brick architecture street scene"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240613_175023536_iOS.jpg-DDGLRmyBh6kPcFlZua08bbYKPksY7n.jpeg"
+                alt="Layered sandstone rock formations with beautiful textures"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 33vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Desert rocks 2 */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* F1 racing - Wide */}
+          <div className="masonry-item masonry-wide">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/desert-rocks-2.jpg"
-                alt="Layered sandstone rock formations"
+                src="/images/fun/f1-racing-new.jpg"
+                alt="Red Bull Formula 1 car on race track with American Express branding"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 66vw, 40vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Board game */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* Boston architecture - Wide */}
+          <div className="masonry-item masonry-wide">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/board-game.jpg"
-                alt="Rummikub board game in progress"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250524_234750620_iOS.heic-hWg0FuRyNvS1JytbqNGALvNqYi4awh.jpeg"
+                alt="Classic Boston red brick buildings with bay windows"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 66vw, 40vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Race wheel detail */}
-          <div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
+          {/* Boston street evening - Portrait */}
+          <div className="masonry-item masonry-tall">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/race-wheel.jpg"
-                alt="Professional race car wheel detail"
+                src="/images/fun/boston-street-evening.jpg"
+                alt="Tree-lined Boston street with classic red brick architecture at dusk"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 25vw, 16vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Row 5: Boston architecture and subway spanning remaining space */}
-          <div className="sm:col-span-2 lg:col-span-3">
-            <div className="relative aspect-[5/3] overflow-hidden rounded-lg">
+          {/* Photography moment - Wide */}
+          <div className="masonry-item masonry-wide">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/boston-architecture.jpg"
-                alt="Classic Boston red brick buildings"
+                src="/images/fun/photography-moment-new.jpg"
+                alt="Person taking photos with DSLR camera on coastal overlook"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 66vw, 40vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          <div className="sm:col-span-2 lg:col-span-3">
-            <div className="relative aspect-[5/3] overflow-hidden rounded-lg">
+          {/* Porsche race car - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/boston-subway.jpg"
-                alt="Boston Airport Station subway platform"
+                src="/images/fun/porsche-race-car-new.jpg"
+                alt="Gulf-livery Porsche race car with yellow and blue colors"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
                 loading="lazy"
               />
             </div>
           </div>
 
-          {/* Night driving spanning 2 columns */}
-          <div className="sm:col-span-2 lg:col-span-6">
-            <div className="relative aspect-[8/3] overflow-hidden rounded-lg">
+          {/* Boston subway - Portrait */}
+          <div className="masonry-item masonry-tall">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
               <Image
-                src="/images/fun/night-driving.jpg"
-                alt="Night driving with GPS navigation"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250524_135607170_iOS.heic-pdjoLPY95u8MlbrNuz0GFgqMEP8fxq.jpeg"
+                alt="Boston Airport Station subway platform view"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, 100vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          {/* Race wheel - Square */}
+          <div className="masonry-item">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
+              <Image
+                src="/images/fun/race-wheel-new.jpg"
+                alt="Close-up of race car wheel with Yokohama tire branding"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          {/* Night driving - Extra wide spanning bottom */}
+          <div className="masonry-item masonry-extra-wide">
+            <div className="relative w-full h-full overflow-hidden rounded-lg">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250524_181934780_iOS.heic-jHxBGqTKQfkdZlF4TZ9XtaW4ukFpnt.jpeg"
+                alt="Night driving with GPS navigation and city lights"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 60vw"
                 loading="lazy"
               />
             </div>
           </div>
         </div>
 
-        {/* Updated caption */}
+        {/* Caption */}
         <div className="mt-8 sm:mt-12 text-center">
           <p className="text-lg sm:text-xl font-light text-gray-400 leading-relaxed">
-            Adventures in <span className="text-white">travel</span>, <span className="text-white">motorsports</span>,{" "}
-            <span className="text-white">robotics</span>, and <span className="text-white">exploration</span>
+            Adventures in <span className="text-white">engineering</span>, <span className="text-white">travel</span>,
+            <span className="text-white"> automotive</span>, and <span className="text-white">exploration</span>
           </p>
         </div>
       </div>
