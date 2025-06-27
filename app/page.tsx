@@ -35,6 +35,7 @@ export default function WorkPage() {
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                priority // Mark as priority for LCP optimization
               />
             </div>
           </Link>
@@ -48,6 +49,7 @@ export default function WorkPage() {
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                loading="lazy" // Lazy load non-critical images
               />
             </div>
           </Link>
@@ -61,6 +63,7 @@ export default function WorkPage() {
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                loading="lazy" // Lazy load non-critical images
               />
             </div>
           </Link>
