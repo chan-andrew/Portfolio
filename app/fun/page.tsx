@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 
 export default function FunPage() {
@@ -5,7 +7,7 @@ export default function FunPage() {
     <div className="py-6 sm:py-8 lg:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-8 sm:mb-12">
+        <div className="mb-4 sm:mb-6">
           <h1 className="text-xl sm:text-2xl lg:text-3xl font-light leading-relaxed">
             <span className="text-gray-400">Some things I've done for </span>
             <span className="text-white">fun</span>
@@ -14,7 +16,7 @@ export default function FunPage() {
         </div>
 
         {/* Expanded Masonry-style Photo Collage */}
-        <div className="masonry-grid">
+        <div className="masonry-grid mt-0">
           {/* Airplane view - Hero image spanning 2 columns */}
           <div className="masonry-item masonry-wide masonry-tall">
             <div className="relative w-full h-full overflow-hidden rounded-lg">
