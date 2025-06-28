@@ -1,9 +1,9 @@
-# Portfolio
+# Portfoliomain1
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andrewchan2305-portfolio/v0-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/yQg37I1nUJ4)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andrewchan2305-portfolio/v0-portfoliomain1)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/vBQrndeMOVz)
 
 ## Overview
 
@@ -14,13 +14,13 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/andrewchan2305-portfolio/v0-portfolio](https://vercel.com/andrewchan2305-portfolio/v0-portfolio)**
+**[https://vercel.com/andrewchan2305-portfolio/v0-portfoliomain1](https://vercel.com/andrewchan2305-portfolio/v0-portfoliomain1)**
 
 ## Build your app
 
 Continue building your app on:
 
-**[https://v0.dev/chat/projects/yQg37I1nUJ4](https://v0.dev/chat/projects/yQg37I1nUJ4)**
+**[https://v0.dev/chat/projects/vBQrndeMOVz](https://v0.dev/chat/projects/vBQrndeMOVz)**
 
 ## How It Works
 

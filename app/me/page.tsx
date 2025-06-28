@@ -34,15 +34,16 @@ export default function MePage() {
 
           {/* Photo */}
           <div className="flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-md aspect-[3/4] overflow-hidden">
+            <div className="relative w-full max-w-md aspect-[3/4] overflow-hidden rounded-lg">
               <Image
-                src="/images/andrew-chan-photo.jpg"
-                alt="Andrew Chan"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/andrew-chan-photo.jpg-Kw96KOteaRvhi5uvznzKy75fzVyeW4.jpeg"
+                alt="Andrew Chan exploring the city with camera"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw,
                        (max-width: 1200px) 50vw,
                        33vw"
+                priority
               />
             </div>
           </div>

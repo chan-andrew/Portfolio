@@ -30,7 +30,7 @@ export default function WorkPage() {
           <Link href="/work/parkinsons-research" className="group cursor-pointer">
             <div className="aspect-square relative overflow-hidden bg-gray-900 px-0">
               <Image
-                src="/images/parkinsons-research.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/parkinsons-graphic.jpg-bOx3ec3lTSpUS9WDwUCpZvP7tHAUxY.jpeg"
                 alt="Parkinson's Disease Research"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -44,7 +44,7 @@ export default function WorkPage() {
           <Link href="/work/microfluidic-chip" className="group cursor-pointer">
             <div className="aspect-square relative overflow-hidden bg-gray-900">
               <Image
-                src="/images/microfluidic-chip.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hai-byhE8xZVEPd4JeO7BLiikidJ2SfQWg.png"
                 alt="Microfluidic Chip Design"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -58,7 +58,7 @@ export default function WorkPage() {
           <Link href="/work/sleep-research" className="group cursor-pointer">
             <div className="aspect-square relative overflow-hidden bg-gray-900">
               <Image
-                src="/images/sleep-research.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sleep-research-graphic.jpg-gflVFBu7mIdMKh3AtTTC9cPvh5VkUO.jpeg"
                 alt="Sleep Research"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"

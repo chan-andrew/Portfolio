@@ -39,14 +39,14 @@ export default function Header() {
             >
               Me
             </Link>
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base sm:text-lg font-light transition-colors hover:text-gray-300 text-gray-400"
+            <Link
+              href="/resume"
+              className={`text-base sm:text-lg font-light transition-colors hover:text-gray-300 ${
+                pathname === "/resume" ? "text-white" : "text-gray-400"
+              }`}
             >
               Resume
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
