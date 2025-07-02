@@ -15,3 +15,11 @@ This is my personal portfolio built using Vercel v0 and Next.js. It showcases my
 - `Portfolio-main/`: Main portfolio section
 - `public/`: Static assets like images and icons
 - `styles/`: Global and utility styles
+
+## Author
+
+**Andrew Chan**
+
+Bioengineering, University of Pittsburgh
+
+Researcher at the Hammer Neuromodulation Lab, University of Pennsylvania
