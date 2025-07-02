@@ -21,5 +21,3 @@ This is my personal portfolio built using Vercel v0 and Next.js. It showcases my
 **Andrew Chan**
 
 Bioengineering, University of Pittsburgh
-
-Researcher at the Hammer Neuromodulation Lab, University of Pennsylvania
