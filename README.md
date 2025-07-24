@@ -1,23 +1,30 @@
-# Portfolio
+# Portfoliomain1
 
-This is my personal portfolio built using Vercel v0 and Next.js. It showcases my projects, experience, and contact information.
+*Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
-## Features
-- Built with Next.js and Tailwind CSS
-- Fully responsive design
-- Deployed on Vercel
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andrewchan2305-portfolio/v0-portfoliomain1)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/vBQrndeMOVz)
 
-## Folder Structure
-- `app/`: App router files
-- `components/`: Reusable UI components
-- `hooks/`: Custom React hooks
-- `lib/`: Utility functions
-- `Portfolio-main/`: Main portfolio section
-- `public/`: Static assets like images and icons
-- `styles/`: Global and utility styles
+## Overview
 
-## Author
+This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-**Andrew Chan**
+## Deployment
 
-Bioengineering, University of Pittsburgh
+Your project is live at:
+
+**[https://vercel.com/andrewchan2305-portfolio/v0-portfoliomain1](https://vercel.com/andrewchan2305-portfolio/v0-portfoliomain1)**
+
+## Build your app
+
+Continue building your app on:
+
+**[https://v0.dev/chat/projects/vBQrndeMOVz](https://v0.dev/chat/projects/vBQrndeMOVz)**
+
+## How It Works
+
+1. Create and modify your project using [v0.dev](https://v0.dev)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository

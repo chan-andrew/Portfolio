@@ -7,7 +7,7 @@ export default function ResumePage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light text-white mb-4">Andrew Chan</h1>
           <div className="text-lg sm:text-xl text-gray-400 space-y-1">
             <p>Pittsburgh, PA 15213 | Chester Springs, PA 19425</p>
-            <p>(484)-354-7107 | anc445@pitt.edu | andrewchan2305@gmail.com</p>
+            <p>anc445@pitt.edu | andrewchan2305@gmail.com</p>
             <p>
               <a
                 href="https://www.linkedin.com/in/andrewchan2305"
