@@ -51,6 +51,23 @@ export default function ResumePage() {
             Experience & Research
           </h2>
           <div className="space-y-8">
+            {/* voya. */}
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
+              <div className="flex-1">
+                <h3 className="text-xl font-medium text-white">voya.</h3>
+                <p className="text-lg text-gray-300 mb-2">Co-Founder and COO</p>
+                <ul className="text-gray-400 space-y-1">
+                  <li>
+                    • Coming soon.
+                  </li>
+                </ul>
+              </div>
+              <div className="text-gray-400 sm:text-right mt-2 sm:mt-0">
+                <p>Philadelphia, PA</p>
+                <p>July 2025 – Present</p>
+              </div>
+            </div>
+            
             {/* Kyron Medical */}
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
               <div className="flex-1">
