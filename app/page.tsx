@@ -23,52 +23,84 @@ export default function WorkPage() {
         </p>
       </div>
 
-      {/* Project Grid */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-          {/* Parkinson's Research - Clickable */}
-          <Link href="/work/parkinsons-research" className="group cursor-pointer">
-            <div className="aspect-square relative overflow-hidden bg-gray-900 px-0">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/parkinsons-graphic.jpg-bOx3ec3lTSpUS9WDwUCpZvP7tHAUxY.jpeg"
-                alt="Parkinson's Disease Research"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
-                priority // Mark as priority for LCP optimization
-              />
-            </div>
-          </Link>
+        {/* Project Grid */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          {/* Top row - 2 projects centered */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto mb-8 lg:mb-12">
+            {/* Voya Project - Clickable */}
+            <Link href="/work/voya" className="group cursor-pointer">
+              <div className="aspect-square relative overflow-hidden bg-black">
+                <Image
+                  src="/voya-logo.jpg"
+                  alt="Voya Project"
+                  fill
+                  className="object-contain transition-transform duration-300 group-hover:scale-105 p-8"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  loading="lazy"
+                />
+              </div>
+            </Link>
 
-          {/* Microfluidic Chip - Now Clickable */}
-          <Link href="/work/microfluidic-chip" className="group cursor-pointer">
-            <div className="aspect-square relative overflow-hidden bg-gray-900">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hai-byhE8xZVEPd4JeO7BLiikidJ2SfQWg.png"
-                alt="Microfluidic Chip Design"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
-                loading="lazy" // Lazy load non-critical images
-              />
-            </div>
-          </Link>
+            {/* Kyron Medical Project - Clickable */}
+            <Link href="/work/kyron-medical" className="group cursor-pointer">
+              <div className="aspect-square relative overflow-hidden bg-black">
+                <Image
+                  src="/kyron-medical-logo.jpeg"
+                  alt="Kyron Medical Project"
+                  fill
+                  className="object-contain transition-transform duration-300 group-hover:scale-105 p-8"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  loading="lazy"
+                />
+              </div>
+            </Link>
+          </div>
 
-          {/* Sleep Research - Now Clickable */}
-          <Link href="/work/sleep-research" className="group cursor-pointer">
-            <div className="aspect-square relative overflow-hidden bg-gray-900">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sleep-research-graphic.jpg-gflVFBu7mIdMKh3AtTTC9cPvh5VkUO.jpeg"
-                alt="Sleep Research"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
-                loading="lazy" // Lazy load non-critical images
-              />
-            </div>
-          </Link>
+          {/* Bottom row - 3 projects */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+            {/* Parkinson's Research - Clickable */}
+            <Link href="/work/parkinsons-research" className="group cursor-pointer">
+              <div className="aspect-square relative overflow-hidden bg-black px-0">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/parkinsons-graphic.jpg-bOx3ec3lTSpUS9WDwUCpZvP7tHAUxY.jpeg"
+                  alt="Parkinson's Disease Research"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                  priority // Mark as priority for LCP optimization
+                />
+              </div>
+            </Link>
+
+            {/* Microfluidic Chip - Now Clickable */}
+            <Link href="/work/microfluidic-chip" className="group cursor-pointer">
+              <div className="aspect-square relative overflow-hidden bg-black">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hai-byhE8xZVEPd4JeO7BLiikidJ2SfQWg.png"
+                  alt="Microfluidic Chip Design"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                  loading="lazy" // Lazy load non-critical images
+                />
+              </div>
+            </Link>
+
+            {/* Sleep Research - Now Clickable */}
+            <Link href="/work/sleep-research" className="group cursor-pointer">
+              <div className="aspect-square relative overflow-hidden bg-black">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sleep-research-graphic.jpg-gflVFBu7mIdMKh3AtTTC9cPvh5VkUO.jpeg"
+                  alt="Sleep Research"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                  loading="lazy" // Lazy load non-critical images
+                />
+              </div>
+            </Link>
+          </div>
         </div>
-      </div>
     </div>
   )
 }

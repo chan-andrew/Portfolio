@@ -39,7 +39,7 @@ export default function ParkinsonsResearchPage() {
               </ul>
             </div>
 
-            <div>
+            <div className="mt-8">
               <h3 className="text-xl font-light text-white mb-4">Research Impact</h3>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 This research contributes to the advancement of personalized medicine in Parkinson's disease treatment.

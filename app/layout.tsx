@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Preload critical resources */}
-        <link rel="preload" href="/images/andrew-chan-photo.jpg" as="image" />
+        <link rel="preload" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/andrew-chan-photo.jpg-Kw96KOteaRvhi5uvznzKy75fzVyeW4.jpeg" as="image" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
